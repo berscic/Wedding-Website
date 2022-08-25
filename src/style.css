@@ -1,0 +1,88 @@
+body {
+  background: radial-gradient(
+    circle at 18.7% 37.8%,
+    rgb(250, 250, 250) 0%,
+    rgb(225, 234, 238) 90%
+  );
+}
+
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #b4accc;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-size: 100px;
+  font-family: "Dancing Script", cursive;
+  margin-top: 90px;
+}
+
+h2 {
+  font-size: 80px;
+  font-family: "Dancing Script", cursive;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 500px;
+}
+
+#logo {
+  width: 350px;
+  padding: 50px;
+}
+
+p {
+  background: var(--secondary-color);
+  opacity: 0.9;
+  color: black;
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.footer {
+  font-family: monospace;
+  text-align: center;
+  color: grey;
+}
+
+.card {
+  width: 500px;
+  height: 580px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.details-body {
+  margin: 90px 60px 100px 100px;
+}
+
+.mass-text {
+  padding-bottom: 20px;
+}
+
+.reception-text {
+  padding-bottom: 20px;
+}
+
+.location a {
+  font-size: 17px;
+  text-decoration: none;
+  color: rgb(82, 39, 100);
+  border: 1px solid rgb(82, 39, 100);
+  padding: 10px 30px 10px 20px;
+  border-radius: 10px;
+  margin: 24px 160px;
+  box-shadow: 3px 3px 5px;
+}
+
+.location a:hover {
+  background: rgb(82, 39, 100);
+  color: white;
+  border: 1px solid rgb(82, 39, 100);
+}
