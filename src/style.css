@@ -55,7 +55,7 @@ p {
   width: 500px;
   height: 580px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .details-body {
@@ -70,7 +70,11 @@ p {
   padding-bottom: 20px;
 }
 
-.location a {
+.card {
+  margin: 40px 320px;
+}
+
+.btn {
   font-size: 17px;
   text-decoration: none;
   color: rgb(82, 39, 100);
@@ -81,27 +85,28 @@ p {
   box-shadow: 3px 3px 5px;
 }
 
-.location a:hover {
+.btn:hover {
   background: rgb(82, 39, 100);
   color: white;
   border: 1px solid rgb(82, 39, 100);
 }
 
-@media (max-width: 960px) {
+@media (max-width: 820px) {
   h1 {
-    text-align: center;
+    text-align: left;
     font-size: 60px;
+    margin-bottom: 20px;
   }
 
   .card {
-    width: 300px;
-    height: 500px;
+    width: 365px;
+    height: min-content;
+    margin: 0px 170px;
   }
+}
 
-  .location a {
-    margin-top: 60px;
-  }
-  .reception {
-    margin-top: 40px;
+@media (max-width: 420px) {
+  .card {
+    margin: 0px;
   }
 }

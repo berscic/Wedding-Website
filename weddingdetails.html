@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="src/style.css" />
     <title>Wedding Details</title>
   </head>
-  <body>
+  <body class="wedding-details">
     <nav class="navbar navbar-expand-lg fixed-top bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">J | B</a>
@@ -47,39 +47,41 @@
         </div>
       </div>
     </nav>
-    <div class="text-center mt-5">
-      <h1>Wedding Details</h1>
-    </div>
-    <div class="container details-body">
+    <h1 class="details text-center">Wedding Details</h1>
+    <div class="container">
       <div class="row">
-        <div class="col-sm-6">
-          <div class="card">
-            <img src="/images/basilica.jpg" class="card-img-top" />
+        <div class="col-lg-6">
+          <div class="card mb-4">
+            <img
+              src="images/basilica.jpg"
+              class="card-img-top"
+              alt="Basilica Mosta"
+            />
             <div class="card-body">
-              <h5 class="card-title">Mass</h5>
-              <p class="card-text mass-text">
-                Santa Maria Assunta Basilica <br />
+              <h5 class="card-title">💒Mass</h5>
+              <p class="card-text">
+                Santa Marija Assunta Basilica <br />
                 Mosta <br />
                 Time: 2pm
               </p>
-              <div class="location mt-4">
-                <a href="#">📍Location</a>
-              </div>
+              <a href="#" class="btn">📍Location</a>
             </div>
           </div>
-        </div>
-        <div class="col-sm-6">
-          <div class="card reception">
-            <img src="/images/excelsior.jpg" class="card-img-top" />
-            <div class="card-body">
-              <h5 class="card-title">Reception</h5>
-              <p class="card-text reception-text">
-                Grand Hotel Excelsior, Floriani Hall <br />
-                Floriana <br />
-                Time: 4pm
-              </p>
-              <div class="location mt-4">
-                <a href="#">📍Location</a>
+          <div class="col-lg-6">
+            <div class="card">
+              <img
+                src="images/excelsior.jpg"
+                class="card-img-top"
+                alt="excelsior"
+              />
+              <div class="card-body">
+                <h5 class="card-title">🥂Reception</h5>
+                <p class="card-text">
+                  Grand Hotel Excelsior, Floriani Hall <br />
+                  Floriana <br />
+                  Time: 4pm
+                </p>
+                <a href="#" class="btn">📍Location</a>
               </div>
             </div>
           </div>
