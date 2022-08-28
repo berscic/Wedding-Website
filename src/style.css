@@ -60,14 +60,9 @@ h1 {
 }
 
 .card {
-  width: 500px;
   height: 580px;
   display: flex;
   justify-content: center;
-}
-
-.details-body {
-  margin: 90px 60px 100px 100px;
 }
 
 .mass-text {
