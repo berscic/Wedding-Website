@@ -112,6 +112,9 @@ h1 {
 
 @media (max-width: 415px) {
   .details {
-    margin: 90px 40px 30px 60px;
+    margin: 90px 40px 30px 90px;
+  }
+  .card {
+    width: 460px;
   }
 }
