@@ -55,8 +55,8 @@ p {
   color: grey;
 }
 
-.details {
-  margin: 90px 120px 30px 120px;
+h1 {
+  margin: 90px 0px 30px 0px;
 }
 
 .card {
@@ -97,7 +97,7 @@ p {
 
 @media (max-width: 576px) {
   .details {
-    margin: 90px 80px 30px 80px;
+    margin: 90px 40px 30px 120px;
   }
 
   h1 {
@@ -112,10 +112,6 @@ p {
 
 @media (max-width: 415px) {
   .details {
-    margin: 90px 40px 30px 120px;
-  }
-
-  body {
-    margin: auto;
+    margin: 90px 40px 30px 60px;
   }
 }
