@@ -70,10 +70,6 @@ p {
   padding-bottom: 20px;
 }
 
-.card {
-  margin: 40px 320px;
-}
-
 .btn {
   font-size: 17px;
   text-decoration: none;
@@ -89,24 +85,4 @@ p {
   background: rgb(82, 39, 100);
   color: white;
   border: 1px solid rgb(82, 39, 100);
-}
-
-@media (max-width: 820px) {
-  h1 {
-    text-align: left;
-    font-size: 60px;
-    margin-bottom: 20px;
-  }
-
-  .card {
-    width: 365px;
-    height: min-content;
-    margin: 0px 170px;
-  }
-}
-
-@media (max-width: 420px) {
-  .card {
-    margin: 0px;
-  }
 }
