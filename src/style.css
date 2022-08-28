@@ -11,6 +11,9 @@ body {
   --secondary-color: #b4accc;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
+body {
+  margin: auto;
+}
 
 h1 {
   font-size: 100px;
