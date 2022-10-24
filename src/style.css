@@ -38,7 +38,7 @@ img {
   padding: 50px;
 }
 
-p {
+.intro p {
   background: var(--secondary-color);
   opacity: 0.9;
   color: black;
@@ -59,57 +59,61 @@ h1 {
   margin: 90px 0px 30px 0px;
 }
 
-.card {
-  height: 580px;
-  display: flex;
-  justify-content: center;
+.mass {
+  background-color: white;
+  margin: 40px 60px;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px;
 }
 
-.mass-text {
-  padding-bottom: 20px;
+.mass img {
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.reception-text {
-  padding-bottom: 20px;
+.mass p {
+  margin-bottom: 35px;
 }
 
-.btn {
-  font-size: 17px;
+.mass a {
+  background-color: purple;
+  padding: 10px 20px 10px 10px;
+  border-radius: 50px;
   text-decoration: none;
-  color: rgb(82, 39, 100);
-  border: 1px solid rgb(82, 39, 100);
-  padding: 10px 30px 10px 20px;
-  border-radius: 10px;
-
-  box-shadow: 3px 3px 5px;
-}
-
-.btn:hover {
-  background: rgb(82, 39, 100);
   color: white;
-  border: 1px solid rgb(82, 39, 100);
 }
 
-@media (max-width: 576px) {
-  .details {
-    margin: 90px 40px 30px 120px;
-  }
-
-  h1 {
-    font-size: 40px;
-    text-align: center;
-    font-weight: 800;
-  }
-  .card {
-    width: 480px;
-  }
+.reception {
+  background-color: white;
+  margin: 40px 60px;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px;
 }
 
-@media (max-width: 415px) {
-  .details {
-    margin: 90px 40px 30px 90px;
-  }
-  .card {
-    width: 460px;
-  }
+.reception img {
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.reception p {
+  margin-bottom: 35px;
+}
+
+.reception a {
+  background-color: purple;
+  padding: 10px 20px 10px 10px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  background-color: white;
+  color: purple;
+  border: solid 1px purple;
+  transition: ease-in-out;
 }
