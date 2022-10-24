@@ -61,7 +61,7 @@ h1 {
 
 .mass {
   background-color: white;
-  margin: 40px 80px 70px 80px;
+  margin: 40px 60px 70px 60px;
   padding: 30px;
   border-radius: 8px;
   box-shadow: 5px 5px 10px;
@@ -97,7 +97,7 @@ h1 {
 
 .reception {
   background-color: white;
-  margin: 40px 80px 40px 80px;
+  margin: 40px 60px 40px 60px;
   padding: 30px;
   border-radius: 8px;
   box-shadow: 5px 5px 10px;
@@ -135,4 +135,27 @@ a:hover {
   color: purple;
   border: solid 1px purple;
   transition: ease-in-out;
+}
+
+@media (max-width: 450px) {
+  .mass {
+    margin: 30px 18px 40px 18px;
+  }
+  .mass h3 {
+    font-size: 40px;
+  }
+  .mass p {
+    font-size: 18px;
+  }
+  .reception {
+    margin: 18px;
+  }
+
+  .reception h3 {
+    font-size: 40px;
+  }
+
+  .reception p {
+    font-size: 18px;
+  }
 }
