@@ -47,6 +47,15 @@ img {
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.intro a {
+  color: black;
+}
+
+.intro a:hover {
+  color: purple;
 }
 
 .footer {
@@ -95,6 +104,12 @@ h1 {
   font-size: 18px;
 }
 
+.mass a:hover {
+  background-color: white;
+  color: purple;
+  border: solid 1px purple;
+  transition: ease-in-out;
+}
 .reception {
   background-color: white;
   margin: 40px 60px 40px 60px;
@@ -130,7 +145,7 @@ h1 {
   font-size: 18px;
 }
 
-a:hover {
+.reception a:hover {
   background-color: white;
   color: purple;
   border: solid 1px purple;
