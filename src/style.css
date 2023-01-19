@@ -168,6 +168,11 @@ h1 {
   transition: ease-in-out;
 }
 
+.names {
+  font-family: "Lobster Two", cursive;
+  font-size: 21px;
+}
+
 @media (max-width: 450px) {
   .mass {
     margin: 30px 18px 40px 18px;
